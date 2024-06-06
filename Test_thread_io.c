@@ -206,17 +206,17 @@ void testAll_fileWithSmallerValues() {
  assert(count == idx);
  fclose(resultFile);
  // Очищаем созданные файлы после теста
- remove("file_test1.txt");
- remove("file_test2.txt");
-}
-void testThreadAll() {
- testAll_fill_matrix();
- testAll_liveGame();
- testAll_MedianFilter();
- testAll_showVisitStats();
- testAll_submatricesNum();
- testAll_minStringNum();
- testAll_maxThree();
- testAll_strShuffle();
- testAll_fileWithSmallerValues();
+    remove("file_test1.txt");
+    remove("file_test2.txt");
+    }
+    oid testThreadAll() {
+    testAll_fill_matrix();
+    testAll_liveGame();
+    testAll_MedianFilter();
+    testAll_showVisitStats();
+    testAll_submatricesNum();
+    testAll_minStringNum();
+    testAll_maxThree();
+    testAll_strShuffle();
+    testAll_fileWithSmallerValues();
 }
