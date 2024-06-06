@@ -3,9 +3,9 @@
 int main() {
  SetConsoleOutputCP(CP_UTF8);
  int matrix[3][3] = {
- {10, 20, 30},
- {25, 35, 45},
- {15, 25, 35}
+    {10, 20, 30},
+    {25, 35, 45},
+    {15, 25, 35}
  };
  int filter = 3;
  int n = 3;
