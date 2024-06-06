@@ -442,8 +442,8 @@ N) {
  fprintf(outputFile, "%d\n", number);
  }
  }
- fclose(inputFile);
- fclose(outputFile);
+    fclose(inputFile);
+    fclose(outputFile);
 }
 void outputFileInChunks(const char *fileInputPath, int N) {
  FILE *fileInput = fopen(fileInputPath, "r");
